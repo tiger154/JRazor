@@ -9,5 +9,7 @@ You can use Razor view engine through Jrazor
 The way use Jrazor 
 
 
+dynamic lJView = new JView("ViewPath")
+YourModel lModel = new YourModel{Name = "SomeName"};
 
-JrazorFactory.Instance().CreateHtml<YourModel>(ViewINfoModel, YourModel);
+JrazorFactory.Instance().CreateHtml<YourModel>(lJView, YourModel);
