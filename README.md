@@ -1,7 +1,7 @@
 JRazor
 ======
 
-In any project you can use RazorEngine through JRazor 
+In any project you can get Templated HTML through JRazor 
 
 Console Application, Window Form Application, even WCF Service 
 You can use Razor view engine through Jrazor 
