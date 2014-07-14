@@ -13,9 +13,8 @@ The way use Jrazor
  - {ProjectRoot}/View/{YourView.cshtml}
  * SO far you can't change Default "View Path"
 
-2. Write Code in Client Project 
- * With Just 3 line you can get your own Html string 
-
+2. Write Code in Client Project (With Just 3 line you can get your own Html string) 
+ 
  - dynamic lJView = new JView("ViewName") // If your View name is "YourView.chstml" you can write "YourView"
  - YourModel lModel = new YourModel{Name = "SomeName"}; // Usally you want to pass your own model into Html Template 
  - string RtnHtml = JrazorFactory.Instance().CreateHtml<YourModel>(lJView, YourModel); // you can get your Html Code generated 
