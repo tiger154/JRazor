@@ -22,8 +22,10 @@ The way use Jrazor
 
 * Dependency 
  - MVC 4 (4.0.20710.0) + 
+ - RazorEngine 3.2 
 
-
+* Reference 
+ - Postal 
 
 Next version will be more flexable
 when you have some idea or ploblem just let me know 
