@@ -17,7 +17,7 @@ The way use Jrazor
  
  - dynamic lJView = new JView("ViewName") // If your View name is "YourView.chstml" you can write "YourView"
  - YourModel lModel = new YourModel{Name = "SomeName"}; // Usally you want to pass your own model into Html Template 
- - string RtnHtml = JrazorFactory.Instance().CreateHtml<YourModel>(lJView, YourModel); // you can get your Html Code generated 
+ - string RtnHtml = JrazorFactory.Instance().CreateHtml<{YourModel}>(lJView, YourModel); // you can get your Html Code generated 
 
 
 * Dependency 
