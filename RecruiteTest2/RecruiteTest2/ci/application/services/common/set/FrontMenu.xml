@@ -1,0 +1,71 @@
+<?xml version="1.0"  encoding="EUC-KR"?>
+<!--
+	menu - 
+		name : 메뉴명 
+		jscode : 메뉴스크립트적용시 사용될코드
+		menuBarImg : 각메뉴의 메뉴바 이미지명
+		mainImg : 메인이미지가 있으면 메인이미지 명 
+				
+-->
+<root>
+<menu jscode="index" menuBarImg="main_h2.gif" name="채용공고">	
+	<dir>/front/recruit</dir>
+</menu>
+<menu name="채용공고" jscode="projectlist" menuBarImg="title01.gif">
+	<dir jscode="projectlist">/front/recruit/ProjectList</dir>
+	<dir jscode="projectview">/front/recruit/ProjectView</dir>
+	<dir jscode="userAuthLogin">/front/login/UserAuthConfirm</dir>
+	<dir name="지원서 작성">/front/apply</dir>	
+	<dir name="지원서 작성">/front/apply/apply</dir>	
+	<dir name="지원서 작성">/front/apply/applyProcess</dir>	
+	<dir name="지원 완료">/front/apply/applyResult</dir>	
+	<dir name="지원 확인">/front/apply/applyView</dir>
+	<dir name="지원 확인">/front/apply/applyFinalSubmit</dir>
+	
+</menu>
+<menu name="공지사항" jscode="notice" menuBarImg="title02.gif">
+	<dir default="on" >/front/bbs/Notice</dir>	
+	<dir>/front/bbs/NoticeDetail</dir>	
+	
+</menu>
+<menu name="질문하기" jscode="qna" menuBarImg="title04.gif">
+	<dir default="on" >/front/bbs/QnA</dir>	
+	<dir>/front/bbs/QnADetail</dir>	
+	<dir>/front/bbs/QnANewPost</dir>
+	<dir>/front/bbs/QnAEditPost</dir>	
+	<dir>/front/bbs/QnADeleteFormPost</dir>	
+</menu>
+<menu name="FAQ" jscode="faq"  menuBarImg="title03.gif">
+	<dir default="on" >/front/bbs/FAQ</dir>	
+	<dir>/front/bbs/FAQDetail</dir>	
+</menu>
+<menu name="입사지원 확인 및 수정" jscode="myPage" menuBarImg="title05.gif">
+	<dir default="on" name="입사지원 현황">/front/mypage</dir>	
+	<dir>/front/login/UserLogin</dir>
+	
+</menu>
+<menu name="비밀번호 찾기" jscode="schpass" menuBarImg="title11.gif" >
+	<dir default="on">/front/login/SearchPassword</dir>
+	<dir>/front/password/PasswordResult</dir>
+</menu>
+<menu name="합격자 발표" jscode="pass" menuBarImg="title06.gif">
+	<dir default="on">/front/pass</dir>	
+	<dir>/front/login/PassLogin</dir>	
+</menu>
+<menu name="회사소개" jscode="intro" menuBarImg="title03.gif">
+	<dir>/front/customPage</dir>	
+</menu>
+
+<menu name="개인정보 취급방침" jscode="contentp" menuBarImg="title08.gif" >
+	<dir default="on">/front/content/CheckPrivacy</dir>
+</menu>
+
+<menu name="개인정보 처리방침" jscode="contentm" menuBarImg="title09.gif" >
+	<dir default="on">/front/content/CheckProcess</dir>
+</menu>
+
+<menu name="이메일주소 무단수집거부" jscode="contente" menuBarImg="title10.gif" >
+	<dir default="on">/front/content/CheckEmail</dir>
+</menu>
+
+</root>

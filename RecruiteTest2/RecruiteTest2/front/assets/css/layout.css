@@ -1,0 +1,202 @@
+/*=================================================================================
+ * Default Layout Definition
+ =================================================================================*/
+
+#LY-Wrapper {
+	position: relative;
+	min-width:1000px;
+	background:#fff;
+}
+
+#Fix-Width {background:#fff;}
+
+/* min-width 적용 */
+* html #LY-Wrapper {	_margin-right:1000px;	_zoom:1;}
+* html #Fix-Width {position: relative; _margin-right:-1000px; min-width:1000px; _zoom:1;}
+
+#LY-Top {
+	position: relative;
+	width: 100%;
+	height: 165px;
+	background:url(../../assets/img/bg/top_bar_bg.gif) repeat-x left top;
+}
+
+#LY-Middle {
+	position: relative;
+	padding:15px 35px 15px 35px;
+}
+
+#LY-Bottom {
+	position: relative;
+	width: 100%;
+}
+
+
+/*=================================================================================
+ * Top Layout Definition
+ =================================================================================*/
+/* 사이트로고  */
+#Top-Logo {
+	position: absolute;
+	left: 19px;
+	top: 23px;
+}
+
+/* 로그인정보  */
+#Login-company {	position: absolute;	left: 36px;	top: 93px;	height:13px;	color:#aacef9;}
+#Login-company span {	display:inline-block; margin:0 5px 0 0;}
+
+#Login-user {	position: absolute;	left: 36px;	top: 129px;	color:#bebebe;}
+#Login-user .user {	float:left;	padding:4px 0 0 0;	margin:0 15px 0 0;}
+#Login-user .super {	float:left;	}
+#Login-user .super img {	vertical-align: middle;}
+
+/* 탑메뉴  */
+#Tm {
+	position: absolute;
+	left: 255px;
+	top: 34px;
+}
+
+#Tm li {
+	float:left;
+	margin:0 0 0 -1px;
+}
+
+#Tm li a {
+	position: relative;
+	display:inline-block;
+	background:url(../../assets/img/bg/tm_bg_off.gif) repeat-x left top;
+	border:1px solid #dedede;
+	border-bottom:none;
+	height:32px;
+	color:#666666;	
+	padding:14px 12px 0 12px;
+	z-index:900;
+	text-decoration: none;
+	font-size:1.17em;
+	font-weight:bold;
+}
+
+#Tm li a.on {
+	background:url(../../assets/img/bg/tm_bg_on.gif) repeat-x left top;
+	border:1px solid #063e7d;
+	border-bottom:none;
+	height:34px;
+	color:#fff;	
+	z-index:1000;
+	text-decoration: none;
+}
+
+#Tm li ul {
+	position: absolute;
+	top: 49px;
+	display:none;
+}
+
+#Tm li ul.on {
+	display:block;
+}
+
+#Tm li ul li {
+	float:left;
+	margin:0 0 0 0;
+}
+
+#Tm li ul li a {
+	position: relative;
+	display:inline-block;
+	background:url(../../assets/img/common/bullet_top_off.gif) no-repeat left 51%;
+	border:none;
+	height:23px;
+	color:#92bef2;	
+	padding:13px 15px 0 8px;
+	z-index:900;
+	text-decoration: none;
+	font-size:1em;
+	font-weight:normal;
+}
+
+#Tm li ul li a.on {
+	background: url(../../assets/img/common/bullet_top_on.gif) no-repeat left 51%;
+	color:#fff;	
+	height:23px;
+	border:none;
+	z-index:900;
+}
+
+#sm01 { width:600px; left: 10px;}
+#sm02 { width:350px; left: 10px;}
+#sm03 { width:580px; left: 120px;}
+#sm05 { width:250px; left: 410px;}
+#sm06 { width:700px; right:-100px;}
+#sm07 { right:0px;text-align:right;}
+
+
+/*=================================================================================
+ * Bottom Layout Definition
+ =================================================================================*/
+#LY-Bottom {
+	position: relative;
+	background:#292929;
+	width:100%;
+	height:31px;
+	text-align:center;
+	color:#757473;
+	font-weight:bold;
+	font-family:verdana;
+	font-size:0.84em;
+	padding:12px 0 0 0;
+}
+
+#LY-Bottom img {
+	vertical-align: middle;
+	margin:0 10px 0 0;
+}
+
+/*=================================================================================
+ * Middle Layout Definition
+ =================================================================================*/
+#Title-box {
+	position: relative;
+	width:100%;
+	height: 30px;	
+	border-bottom:1px solid #e0e0e0;
+	padding:10px 0 0 0;
+	margin: 0 0 35px 0;	
+}
+
+#Title-box h1 {
+	font-size:1.34em;
+	font-weight:bold;
+	font-family: "굴림", Gulim, "돋움", Dotum, Tahoma, Verdana, AppleGothic, sans-serif;
+	color:#ff5400;
+	background:url(../../assets/img/common/bullet_h1.gif) no-repeat left 51%;
+	padding:0 0 0 17px;
+}
+
+#Title-box .site_navi {
+	position: absolute;
+	right:0;	
+	top:-45px;
+	color: #dcdbdb;
+	background:url(../../assets/img/common/ico_home.gif) no-repeat left 1px;
+	padding:0 0 0 15px;
+	font-size:0.92em;
+}
+
+#Title-box .project_s {
+	position: absolute;
+	right:0;	
+	bottom:10px;
+}
+
+#Title-box .project_s {
+	position: absolute;
+	right:0;	
+	bottom:10px;
+}
+
+
+#Content-box {	position: relative;	width:100%;	min-height:600px;	z-index:50;}
+* html #Content-box {	height:600px; /* : FILTER : IE 6 */}

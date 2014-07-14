@@ -1,0 +1,185 @@
+@charset "euc-kr";
+/*=================================================================================
+ * Board List Type
+ =================================================================================*/
+.BdList {	position:relative;	width:700px;	table-layout: fixed; }
+.BdList caption {	display:none;}
+.BdList thead tr {	position:relative;	height: 37px;}
+.BdList thead tr th { background:url(/assets/front/design2/img/board/board_top.gif) no-repeat center top;font-size:11px;letter-spacing:-1px;}
+.BdList thead tr th.first {	background:url(/assets/front/design2/img/board/board_top.gif) no-repeat left top;}
+.BdList thead tr th.last {	background:url(/assets/front/design2/img/board/board_top.gif) no-repeat right top;}
+.BdList tbody td {	padding:9px 0 8px 0;	text-align:center;	border-bottom:1px solid #e3e3e3;	line-height:14px; word-wrap:break-word;}
+.BdList tbody td.left {	text-align:left;	padding-left: 5px;}
+.BdList tbody td.select-line, .BdList tbody td.select-line a {font-weight:bold;color:#000;}
+
+.noData {	height: 100px;	color: #ACACAC;	font-weight: bold;}
+.icoNew {vertical-align: middle; margin:0 0 2px 3px;}
+.icoFile {vertical-align: middle; margin:0 0 2px 0;}
+
+/*=================================================================================
+ * Top List Type
+ =================================================================================*/
+.TopListBox { border-bottom:1px solid #f0f0f0; margin:40px 0 0 0; }
+.TopList {	position:relative;	width:100%;	table-layout: fixed; border:1px solid #e0e0e0; }
+.TopList caption {	display:none;}
+.TopList thead tr th { background:#f1f1f1; color:#000; border-bottom:1px solid #e3e3e3; padding:7px 0 7px 0;}
+.TopList tbody tr.bold td {	font-weight:bold; color:#000;}
+.TopList tbody tr.bold td a {color:#000;}
+.TopList tbody td {	padding:9px 0 8px 0;	text-align:center;	border-bottom:1px solid #e3e3e3;	line-height:14px; word-wrap:break-word;}
+.TopList tbody td.left {	text-align:left;	padding-left: 5px;}
+
+ /*=================================================================================
+ * Board View Type
+ =================================================================================*/
+.BdView {	position:relative;	width:100%;	table-layout: fixed;}
+.BdView caption {	display:none;}
+.BdView tbody tr th {	color:#333333;	padding:7px 0 4px 0;	border-bottom:1px solid #e3e3e3;	text-align:center; letter-spacing:-1px;}
+.BdView tbody tr td {	padding:7px 15px 4px 10px;	border-bottom:1px solid #e3e3e3;}
+.BdView tbody tr td.subject {	text-align:center;background:url(/assets/front/design2/img/board/board_top.gif) no-repeat left top;	color:#333333;	 font-size: 1.17em; font-weight:bold;}
+.BdView tbody tr td.left {text-align:left;}
+.BdView tbody tr td.con-txt {	padding:20px 10px 20px 10px;	vertical-align: top;	min-height: 250px;	height:250px;}
+* html .BdView tbody tr td.con-txt {	height:250px;  /* : FILTER : IE 6 */}
+
+tbody tr td .file li,
+tbody tr td .file li {	background:url(/assets/img/common/ico_file.gif) no-repeat left 47%;	padding:0 0 0 13px;}
+
+/*=================================================================================
+ * Another Category
+ =================================================================================*/
+.AnotherCategory {border:1px solid #e0e0e0; padding:10px 0; margin:30px 0 0 0; font-size:0.92em; background:#fbfbfb;}
+.AnotherCategory table {width:100%;	table-layout: fixed;}
+.AnotherCategory table caption {	display:none;}
+.AnotherCategory table tbody td {	padding:2px 0 2px 0;	text-align:center;	 word-wrap:break-word;}
+.AnotherCategory table tbody td.left {	text-align:left;	padding-left: 5px;}
+
+ /*=================================================================================
+ * Board Write Type
+ =================================================================================*/
+.BdWrite {	position:relative;	width:100%;	table-layout: fixed;	border-top:3px solid #29a4d9;}
+.BdWrite caption {	display:none;}
+.BdWrite tbody tr th {	border-bottom:1px solid #e3e3e3;	padding:6px 0 2px 0;	color:#333333;		text-align:center;}
+.BdWrite tbody tr td {	padding:4px 0 4px 8px;	border-bottom:1px solid #e3e3e3;}
+.BdWrite tbody tr td textarea {	resize: none;}
+
+/*=================================================================================
+ * Board View next,prev list Type
+ =================================================================================*/
+#BdViewPage {	width:100%;	table-layout: fixed;	border-top:1px solid #e3e3e3;	margin:-1px 0 20px 0; }
+#BdViewPage caption {	display:none;}
+#BdViewPage tbody tr th {	padding:7px 0 4px 0;	border-bottom:1px solid #e3e3e3;	text-align:center;	}
+#BdViewPage tbody tr td {	padding:7px 0 4px 0;	border-bottom:1px solid #e3e3e3;}
+
+/*=================================================================================
+ * Board Paging Style
+ =================================================================================*/
+#Paging {position: relative;	vertical-align: middle; padding:0px 0 0 0;}
+#Page-Index {	text-align: center;}
+#Page-Index img {	vertical-align:bottom;}
+#Page-Index span a, #Page-Index span strong {	padding: 2px 7px 0 7px; display:inline-block; font-family: "Verdana", "Arial", "Lucida Grande", "Tahoma", "sans-serif"; font-size:0.92em; color:#000000; background:#fff;}
+#Page-Index span strong {color:#ff6c00;}
+#Page-Index span a.on {	border:1px solid #ff7a63; color:#ff7a63;}
+#Page-Index span a:hover  {	color:#ff7a63; text-decoration: none;}
+#Page-Index .first {	margin-left:1px; background:none;}
+#Page-Index .last {	margin-right:4px;}
+#Page-Index img {vertical-align:middle;}
+.listBtn {	position: absolute;	right: 0px;	top:18px;}
+
+/*=================================================================================
+ * Board Search
+ =================================================================================*/
+#bdTopSch {	position: relative;	text-align: right;	margin:0 0 0 0;	padding:0 0 10px 0;}
+#bdTopSch label { position: absolute;	left: -10000px;	top: 0px;}
+#bdTopSch .b_input{	border:1px solid #dcdcdc;background:#f0f0f0;padding:0px;}
+
+#bdTopSch .tip01 { color:#29a4d9; font-size:0.92em; text-align:left; padding:5px 0 0 200px;}
+
+#bdBbsSch {	position: relative;	text-align: center; margin-top:25px;}
+#bdBbsSch label{		position: absolute;	left: -10000px;	top: 0px;}
+#bdBbsSch .b_select{	height:23px;}
+#bdBbsSch .b_input{	width: 230px; background:#ededed;}
+
+/*=================================================================================
+ * Board Btn
+ =================================================================================*/
+.BdBtnCen { width:100%; text-align:center;}
+.BdBtnLef { width:100%; text-align:left;}
+.BdBtnRig { width:100%; text-align:right;}
+
+/*=================================================================================
+ * FAQ List
+ =================================================================================*/
+#FaqList {	width:100%;	border-top:2px solid #666;	}
+#FaqList dt, #FaqList dd{	position: relative;	border-bottom:1px solid #e3e3e3;}
+#FaqList dt{	padding: 10px 20px 10px 10px;}
+#FaqList dt span {font-weight:bold;}
+#FaqList dd{	background:#f1f1f1; padding: 10px 20px 10px 20px;display:none;}
+#FaqList dt img.ico, #FaqList dd img.ico {	position: absolute;	top:10px;	left:15px;}
+#FaqList dd.open {display:block;}
+#FaqList dd.open ul {padding:20px 0 0 0;}
+#FaqList dd.open ul li {background:url(/assets/front/design2/img/board/ico_file.gif) no-repeat left 2px; padding:0 0 0 15px;}
+
+/*=================================================================================
+* Page Info
+=================================================================================*/
+#PageInfo {	width:100%; margin:20px 0 5px 0;}
+#PageInfo:after {	content: "";	clear: both;	display: block;}
+#PageInfo .lefBox { float:left;}
+#PageInfo .rigBox { float:right;}
+
+.textC {text-align:center;padding:15px 0 0 0;}
+.textR {text-align:right;padding:15px 0 0 0;}
+.textarea-box {padding:0 0 10px 0;}
+.textarea-box textarea {border:1px solid #e0e0e0;width:690px;height:150px; resize: none;}
+
+#injueng-out {padding:30px 0 0 0;position: relative;z-index:10000;}
+.tab-link {width:100%;overflow:hidden;position: relative;z-index:10000;}
+.tab-link a {
+	position: relative;z-index:10000;
+	display:block;
+	float:left;
+	border:1px solid #e0e0e0;
+	padding:15px 40px 10px 40px;
+	margin:0 -1px 0 0;
+	background:#f8f8f8;
+	font-weight:bold;
+}
+.tab-link a.on {border-bottom:1px solid #fff;background:#fff;color:#ff6717;}
+
+#injueng-box {
+	position: relative;
+	z-index:100;
+	border:1px solid #e0e0e0;
+	margin-top:-1px;
+	width:698px;
+}
+
+#injueng-box fieldset {	padding:30px 0 30px 30px;}
+#injueng-box fieldset ul li {padding:0 0 8px 0;}
+#injueng-box fieldset label {display:inline-block;width:70px;background:url(/assets/front/design2/img/board/bullet01.gif) no-repeat left 6px;padding:0 0 0 7px;color:#575757;}
+#injueng-box fieldset .sex-box label {display:inline;background:none;padding:0 0 0 0;}
+
+#injueng-how {border-top:1px solid #e0e0e0;background:#f8f8f8;padding:20px 0 20px 30px; width:668px;}
+#injueng-how:after {	content: "";	clear: both;	display: block;}
+#injueng-how h2 {float:left;padding:0 40px 0 0;}
+#injueng-how ul li {float:left;width:140px;height:100px;margin:0 0 0 30px;}
+#injueng-how ul li.bg01 {background:url(/assets/front/design2/img/board/bg01.gif) no-repeat left 20px;}
+#injueng-how ul li.bg02 {background:url(/assets/front/design2/img/board/bg02.gif) no-repeat left 20px;}
+#injueng-how ul li.bg03 {background:url(/assets/front/design2/img/board/bg03.gif) no-repeat left 20px;}
+
+.info-box {border:1px solid #e0e0e0;background:#f8f8f8;padding:20px 20px 15px 20px;margin-bottom:20px;}
+.point-txt {font-weight:bold;color:#348a04;padding:20px 0 10px 10px;}
+.count {text-align:right;padding:10px 15px 0 0;}
+.box-red {border:1px solid #ff5400;background:#f4d8ca;padding:20px;margin-top:20px;}
+.link-txt a {color:#3ca205;}
+
+.border-box01 {position: relative;border:1px solid #acacac;padding:20px 30px 20px 240px;margin-top:20px;background:#f8f8f8 url(/assets/front/design2/img/board/border_box_img01.jpg) no-repeat 30px top;}
+.border-box01 .TbStyle01 {border-top:none; width:430px;}
+.border-box01 .TbStyle01 tbody tr th {background:none;border-right:none;text-align:left;padding-left:10px;color:#000;}
+.border-box01 .TbStyle01 .last {border-bottom:none;}
+.border-box01 .btm-line {width:100%;position: absolute;	left: 0px;	bottom:-2px;height:1px;background:#e0e0e0;display:block;}
+
+.border-box02 {position: relative;border:1px solid #acacac;padding:20px 30px 20px 240px;margin-top:20px;background:#f8f8f8 url(/assets/front/design2/img/board/border_box_img02.jpg) no-repeat 30px top;}
+.border-box02 .TbStyle01 {border-top:none; width:430px;}
+.border-box02 .TbStyle01 tbody tr th {background:none;border-right:none;text-align:left;padding-left:10px;color:#000;}
+.border-box02 .TbStyle01 .last {border-bottom:none;}
+.border-box02 .btm-line {width:100%;position: absolute;	left: 0px;	bottom:-2px;height:1px;background:#e0e0e0;display:block;}

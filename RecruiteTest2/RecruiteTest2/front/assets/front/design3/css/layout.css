@@ -1,0 +1,65 @@
+/*=================================================================================
+ * Default Layout Definition
+=================================================================================*/
+#Wrapper {	position: relative;	width: 100%; background:url(/assets/front/design3/img/visual/sub_visual_bg.gif) repeat-x left top;}
+#Header {position: relative; width: 980px;	height: 250px; margin:0 auto;}
+
+#Section {	position: relative;	width: 980px;	margin:0 auto; padding:0 0 25px 0;}
+#Section:after {	content: "";	clear: both;	display: block;}
+#AsideLeft {	position: relative;	width: 230px;	float:left; margin:-20px 0 0 0;}
+#Article {	position: relative;	width: 700px;	float:right;	}
+#Footer {	position: relative; width: 100%;	border-top:1px solid #e4e4e4;}
+
+/*=================================================================================
+ * Header Layout Definition
+=================================================================================*/
+#Hgroup {	position: absolute;	left: 0;	top: 21px; z-index:1000;}
+
+/* Top Navi */
+#Tm-nav {width:100%; padding:46px 0 0 0;}
+#Tm-nav:after {	content: "";	clear: both;	display: block;}
+#Tm-nav ul {float:right;}
+#Tm-nav ul li {position: relative; float:left; margin:0 10px 0 10px;}
+
+/*=================================================================================
+ * AsideLeft Definition
+=================================================================================*/
+#AsideLeft ul {background:url(/assets/front/design3/img/left/lm_bottom.gif) no-repeat left bottom; padding:0 0 43px 0;}
+#AsideLeft li {position: relative; background:url(/assets/front/design3/img/left/lm_bg.gif) repeat-y left top; padding:0 0 0 10px;}
+
+/*=================================================================================
+ * Bottom Layout Definition
+ =================================================================================*/
+#Fgroup {	position: relative; width:800px;	height:55px;	margin:0 auto; padding:25px 0 0 170px;}
+#Fgroup .logo {	position: absolute;	left:10px;	top:20px;}
+
+#Fgroup .util{	width:100%; margin:0 0 10px 0;}
+#Fgroup .util:after {	content: "";	clear: both;	display: block;}
+#Fgroup .util li {	float:left; margin:0 10px 0 0; line-height:0px;	font-size:0;}
+#Fgroup .info{ width:100%;}
+
+/*=================================================================================
+ * Article Layout Definition
+ =================================================================================*/
+#Title-box {	position: relative;	width: 100%;		height: 30px;		margin: 0 0 20px 0; padding:31px 0 0 0;}
+#Title-box h2 { border-bottom:1px solid #eeeeee;	}
+#Title-box h2 img { margin:0 0 -1px 0;}
+#Title-box p {	position: absolute; right:0;	bottom:5px; color: #999999;	background:url(/assets/front/design3/img/common/ico_home.gif) no-repeat left 50%;		padding:0 0 0 10px;}
+#Title-box p span {		font-weight:bold;	color: #666666;}
+
+#Title-box .snavi {	position: absolute; right:0;	top:-220px; color: #999999;	background:url(/assets/front/design3/img/common/ico_home.gif) no-repeat left 5px;		padding:0 0 0 10px;}
+#Title-box .snavi span {		font-weight:bold;	color: #666666;}
+
+#Content-box {	position: relative;	width:700px;	min-height:450px;}
+* html #Content-box {	height:450px; /* : FILTER : IE 6 */}
+
+/*=================================================================================
+ * Main Layout Definition
+ =================================================================================*/
+#Main-Wrapper {	position: relative;	width: 100%; background:url(/assets/front/design3/img/visual/main_visual_bg.gif) repeat-x left top;}
+#Main-Wrapper #Header {position: relative; width: 980px;	height: 440px; margin:0 auto;}
+
+#Main-Wrapper #Title-box {	position: relative;	width: 100%;		height: auto;		margin: 0 0 15px 0; padding:31px 0 0 0;}
+#Main-Wrapper #Title-box h2 { border-bottom:none;	}
+#Main-Wrapper #Content-box {	position: relative;	width:700px;	min-height:auto;}
+* html #Main-Wrapper #Content-box {	height:auto; /* : FILTER : IE 6 */}

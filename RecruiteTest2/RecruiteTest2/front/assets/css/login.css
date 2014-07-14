@@ -1,0 +1,76 @@
+/*=================================================================================
+ * Default Layout Definition
+ =================================================================================*/
+
+#LY-Login {
+	position: relative;
+	width:100%;
+	min-height:700px;
+	z-index:50;
+	padding:95px 0 0 0;
+}
+
+* html #LY-Login {	height:700px; /* : FILTER : IE 6 */}
+
+#Login-box {
+	width:610px;
+	margin:0 auto;
+}
+
+#Login-box .logo {
+	height:90px;
+	padding:0 0 0 5px;
+}
+
+#Login-box .box {
+	position:relative;
+	width:610px;
+	height:370px;
+	background: url(../../assets/img/login/login_bg.gif) no-repeat left bottom;
+	margin:0 auto;
+}
+
+#Login-From {
+	position: absolute;
+	left:113px;
+	top:170px;
+	width:390px;
+	height:84px;
+}
+
+#Login-From dl:after { content:""; clear:both; display:block; }
+
+#Login-From dl dt {
+	width:102px;
+	height:24px;
+	float:left;
+	margin:0 0 6px 0;
+	line-height:0px;
+	font-size:0;
+}
+
+#Login-From dl dd {
+	position:relative;	
+	width:285px;
+	height:24px;
+	float:left;	
+	margin:0 0 6px 0;
+	overflow:hidden;
+}
+
+#Login-From dl dd input {
+	height:20px;
+	line-height:18px;
+}
+
+#Login-From fieldset .image {
+	position: absolute;
+	left:296px;
+	top:0px;
+}
+
+#Login-box .tip {
+	position: absolute;
+	bottom:32px;
+	left:60px;
+}

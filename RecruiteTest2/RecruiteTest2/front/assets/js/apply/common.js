@@ -1,0 +1,4 @@
+function CheckDate(etcval,code)
+{
+	
+}

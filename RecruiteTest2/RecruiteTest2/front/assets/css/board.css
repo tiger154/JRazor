@@ -1,0 +1,184 @@
+/*=================================================================================
+ * Board Top Sch
+ =================================================================================*/
+#Bd-top-sch {	position: relative;	width:100%;	margin:0 0 10px 0;}
+#Bd-top-sch:after { content:""; clear:both; display:block; }
+
+#Bd-top-sch .tip {	float:left;	background:url(../../assets/img/common/bullet_dot_gray.gif) no-repeat left 5px;	padding:0 0 0 7px; margin:0 5px 0 0;}
+#Bd-top-sch .page {	float:left; margin:0 5px 0 0;}
+#Bd-top-sch .btn { position: relative;	float:left; margin:-8px 5px 0 0; z-index:900;}
+
+#Bd-top-sch .sch {	float:right;}
+#Bd-top-sch .sch form {	width:300px;	text-align:right;}
+#Bd-top-sch .sch form label {	position: absolute;	left: -10000px;	top: 0px;}
+
+#Bd-top-sch.mg-top {	margin:-29px 0 10px 0;}
+
+/*=================================================================================
+ * Board Paging Style
+ =================================================================================*/
+#Paging {position: relative; padding:20px 0 20px 0;}
+#Page-Index {	text-align: center;}
+#Page-Index img {	vertical-align:top;}
+#Page-Index span a {	padding: 4px 7px 0 7px; height:16px; display:inline-block; border:1px solid #c8c8c8; font-family: "Verdana", "Arial", "Lucida Grande", "Tahoma", "sans-serif"; font-size:0.92em;}
+#Page-Index span a.on {	border:1px solid #165695; color:#fff; background:#247bce;}
+#Page-Index span a:hover  {	border:1px solid #165695; color:#fff; text-decoration: none; background:#247bce;}
+
+/*=================================================================================
+ * Board List Type
+ =================================================================================*/
+#BdList-Type01 {
+	width:100%;
+	table-layout: fixed;
+	color:#606163;
+	border-top:1px solid #6f6f6f;
+}
+
+#BdList-Type01 caption {	display:none;}
+
+#BdList-Type01 thead tr th {
+	color:#4b4b4b;
+	background:url(../../assets/img/bg/bd_th_bg.gif) repeat-x left bottom;
+	border-right:1px solid #dcdcdc;
+	padding:12px 0 12px 0;
+}
+
+#BdList-Type01 thead tr th.first {
+	border-left:1px solid #dedede;
+}
+
+#BdList-Type01 tbody tr td {
+	padding:9px 0 6px 0;
+	text-align:center;
+	border-bottom:1px solid #e9e9e9;
+	background:#fff;
+	word-wrap: break-word;
+}
+
+#BdList-Type01 tbody tr td.left {
+	text-align:left;
+	padding:0 0 0 10px;
+}
+
+ /* 공통 */
+.no-data {	height: 100px;	color: #ACACAC;	font-weight: bold;}
+.BdList-Box {	border-bottom:1px solid #999dac;}
+.BdTip {	text-align:right;}
+.BdTip span {	color:#fc5d17;	font-weight:bold;}
+
+/*=================================================================================
+ * Board View Type
+ =================================================================================*/
+.BdView-Type01 {
+	width:100%;
+	table-layout: fixed;
+	border-top:1px solid #6f6f6f;
+	margin:0 0 20px 0;
+}
+
+.BdView-Type01 caption {	display:none;}
+
+.BdView-Type01 thead tr th {
+	color:#fff;
+	background:#84a1bc;
+	border-left:1px solid #dcdcdc;
+	padding:9px 0 6px 0;
+}
+
+.BdView-Type01 thead tr th.first {
+	border-left:none;
+}
+
+.BdView-Type01 tbody tr th {
+	color:#4b4b4b;
+	padding:9px 0 6px 0;
+	border:1px solid #dcdcdc;
+	border-top:0px;
+	border-left:0px;
+	text-align:left;
+	background:#f6f6f6;
+	text-indent:15px;
+}
+
+.BdView-Type01 tbody tr td {
+	padding:9px 0 6px 10px;
+	border-bottom:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+}
+
+.BdView-Type01 tbody tr td img {	vertical-align: middle;}
+
+.BdView-Type01 tbody tr th.bdLine {	border-left:1px solid #dcdcdc;}
+
+.BdView-Type01 tbody tr th.center {	text-align:center; text-indent:0px;}
+.BdView-Type01 tbody tr td.left {	text-align:left;}
+.BdView-Type01 tbody tr td.center {	text-align:center; padding:9px 0 6px 0;}
+
+.BdView-Type01 tbody tr.colorB th {	background:#e8eef4;}
+
+.BdView-Type01 tbody tr.colorB td {	background:#f1f7fd;}
+
+.item { color:#ff5400; margin:0 3px 0 0;}
+.tbLi li { margin:0 0 5px 0;}
+
+/*=================================================================================
+ * 기업현황
+ =================================================================================*/
+#CompanyList {
+	position: relative;
+	width:100%;
+	border-top:1px solid #6f6f6f;
+	border-bottom:1px solid #dcdcdc;
+	background:url(../../assets/img/bg/dot_bg.gif) repeat-x left 50%;
+}
+
+#CompanyList ul {
+	width:928px;
+	margin:0 auto;
+}
+
+#CompanyList ul:after {	content: "";	clear: both;	display: block;}
+
+#CompanyList li {
+	float:left;
+	width:232px;
+	padding:30px 0 30px 0;
+	margin-bottom:-1px;
+}
+
+#CompanyList li dl {
+	position: relative;
+	width:202px;
+	margin:0 auto;
+	padding:109px 0 0 0;
+	text-align:center;
+}
+
+#CompanyList li dt {
+	font-weight:bold;
+	width:202px;
+	height:15px;
+	overflow: hidden;
+	color:#ff5400;
+}
+
+#CompanyList li dt a {
+	color:#ff5400;
+}
+
+
+#CompanyList li dd {
+	width:202px;
+	margin-top:5px;
+}
+
+#CompanyList li dd.logo {
+	width:200px;
+	height:100px;
+	background:#fff;
+	border:1px solid #cdcdcd;
+	margin-top:0px;
+	position: absolute;
+	left:0px;
+	top:0px;
+}

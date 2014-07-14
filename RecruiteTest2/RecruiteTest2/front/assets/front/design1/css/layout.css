@@ -1,0 +1,65 @@
+/*=================================================================================
+ * Default Layout Definition
+=================================================================================*/
+.WBg {width:100%; height:100%; background:url(/assets/front/design1/img/common/body_bg_gr.png) repeat-x left top;}
+#Wrapper {	width: 997px; height: 100%; margin:0 auto;}
+
+#Header {position: relative; width: 997px; height:88px; z-index:100; background:url(/assets/front/design1/img/common/section_bg_top.png) no-repeat left top;}
+
+#Section {	width: 997px; min-height: 100%; margin: -88px 0 -70px 0; background:url(/assets/front/design1/img/common/section_bg_bottom.png) repeat-y left top;}
+* html #Section {height: 100%;}
+#atBox { padding: 88px 0 70px 0;}
+#atBox:after {	content: "";	clear: both;	display: block;}
+
+#Aside {	position: relative;	width: 247px;	float:left; padding:0 0 0 12px;}
+#Article {	position: relative;	width: 700px;	float:left;  	}
+
+#Footer {position: relative; width:247px; height:70px; z-index:1; padding:0 0 0 12px;}
+#Visual {	position: relative; margin:20px 0 0 0;}
+
+/*=================================================================================
+ * Header Layout Definition
+=================================================================================*/
+#Header h1 {	position: absolute;	left: 37px;	top: 10px;}
+
+/*=================================================================================
+ * AsideLeft Definition
+=================================================================================*/
+#Aside div {margin:0 0 5px 0;}
+#Aside li {float:left; margin:0 2px 2px 0;}
+
+/*=================================================================================
+ * Bottom Layout Definition
+ =================================================================================*/
+#Fgroup {position:absolute;	bottom:10px;	left:12px;}
+
+/* ÆË¾÷Á¸ */
+#Popup {	position: relative;	width:190px;	height:172px;	margin-bottom:25px;}
+#Popup .num {		position:absolute;	top:0;	right:0;}
+#Popup .num li{	float:left;	padding-left:2px;	font-size:0;	line-height:0;}
+#Popup .num li p {	position:absolute;	top:12px;	right:0;	width:190px;	height:160px;	border-top:none; display: none;}
+#Popup .num li.on p {	display: block;}
+
+#Footer .util{	width:100%; margin:0 0 5px 0;}
+#Footer .util:after {	content: "";	clear: both;	display: block;}
+#Footer .util li {	float:left; margin:0 10px 5px 0; line-height:0px;	font-size:0;}
+#Footer .info{ width:100%;}
+
+/*=================================================================================
+ * Article Layout Definition
+ =================================================================================*/
+#Title-box {		position: relative;	width: 100%;		margin: -85px 0 25px 0; padding:0 0 0 0;}
+#Title-box p {	color: #999999;	background:url(/assets/front/design1/img/common/ico_home.gif) no-repeat left 5px;		padding:0 0 0 10px; margin:20px 0 0 0;}
+#Title-box p span {		font-weight:bold;	color: #666666;}
+
+#Content-box {	position: relative;	width:700px;	min-height:400px; padding:0 0 20px 0;}
+* html #Content-box {	height:400px; /* : FILTER : IE 6 */}
+
+/*=================================================================================
+ * Main Layout Definition
+ =================================================================================*/
+#Main-Wrapper {	width: 997px; height: 100%; margin:0 auto;}
+
+#Main-Wrapper #Title-box {		position: relative;	width: 100%;		margin: 20px 0 15px 0; padding:0 0 0 0;}
+#Main-Wrapper #Content-box {	position: relative;	width:700px;	min-height:200px; padding:0 0 0 0;}
+* html #Main-Wrapper #Content-box {	height:200px; /* : FILTER : IE 6 */}
