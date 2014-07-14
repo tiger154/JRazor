@@ -16,10 +16,9 @@ The way use Jrazor
 2. Write Code in Client Project 
  - With Just 3 line you can get your own Html string 
 
-dynamic lJView = new JView("ViewName") // If your View name is "YourView.chstml" you can write "YourView"
-YourModel lModel = new YourModel{Name = "SomeName"}; // Usally you want to pass your own model into Html Template 
-
-string RtnHtml = JrazorFactory.Instance().CreateHtml<YourModel>(lJView, YourModel); // you can get your Html Code generated 
+ 1) dynamic lJView = new JView("ViewName") // If your View name is "YourView.chstml" you can write "YourView"
+ 2) YourModel lModel = new YourModel{Name = "SomeName"}; // Usally you want to pass your own model into Html Template 
+ 3) string RtnHtml = JrazorFactory.Instance().CreateHtml<YourModel>(lJView, YourModel); // you can get your Html Code generated 
 
 
 * Dependency 
